@@ -1,0 +1,91 @@
+/* استيراد خطوط جوجل */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Cairo', sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.cv-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgb(243, 243, 243);
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 0 15px rgb(243, 243, 243);
+    border-radius: 10px;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #007bff;
+    box-shadow: 0px 0px 15px #007bff;
+    transition: transform 0.3 ease-in-out;
+}
+
+h1 {
+    margin: 10px 0;
+    color: white;
+}
+
+h1:hover {
+    font-size: 30px;
+    color: #007bff; 
+}
+h2 {
+    color: white;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+
+p {
+    color: white;
+    line-height: 1.6;
+}
+
+section {
+    margin: 20px 0;
+}
+
+.contact p {
+    list-style: none;
+    padding: 0;
+}
+
+/* تنسيق الجدول */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    color: #007bff;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #007bff;
+    color: white;
+}
+
+td {
+    background: #f9f9f9;
+}
+
+td:nth-child(2) {
+    font-size: 18px;
+}
